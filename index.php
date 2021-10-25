@@ -47,7 +47,7 @@ if(isset($_POST['submit'])){
         /*Funcion mail*/
         //+Solo sirve en hostings
         //mail([correo], [asunto], [mensaje]);
-        mail($enviar_a, $ausnto, $mensaje_preparado);
+        mail($enviar_a, $asunto, $mensaje_preparado);
         $enviado = true;
     }
 }
