@@ -38,7 +38,7 @@ if(isset($_POST['submit'])){
     }
 
     if(!$errores){
-        $enviar_a = 'rickaaraujoc@gmail.com';
+        $enviar_a = 'ejemplo@gmail.com';
         $asunto = 'Correo enviado desde miPagina.com';
         $mensaje_preparado = "De: $nombre \n";
         $mensaje_preparado .= "Correo: $correo \n";
